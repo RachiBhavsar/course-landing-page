@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+.header {
+    background: #009688;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0 0 20px;
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.cta-button {
+    background: #ff4081;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #e91e63;
+}
+
+/* Course Features Section */
+.course-features {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.course-features h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-features ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #009688;
+}
+
+/* Course Timeline Section */
+.course-timeline {
+    padding: 40px 0;
+}
+
+.course-timeline h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline-item {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #ff4081;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 40px 0;
+    background: #009688;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial-item {
+    margin-bottom: 20px;
+}
+
+.testimonial-item p {
+    font-style: italic;
+}
+
+.testimonial-item h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.faq h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #009688;
+}
+
+/* Footer Section */
+.footer {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .timeline {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 40px 0;
+    background: #f4f4f4;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    width: 80%;
+}
+
+/* Sign Up Section Styles */
+.signup {
+    padding: 40px 0;
+    background: #e3f2fd; /* Light background color */
+}
+
+.signup h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 28px; /* Font size for heading */
+    color: #333; /* Text color */
+}
+
+.signup form {
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align form elements */
+    max-width: 400px; /* Limit form width */
+    margin: auto; /* Center form horizontally */
+}
+
+.signup input {
+    width: 100%; /* Full width for input fields */
+    padding: 10px; /* Inner spacing */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.signup button {
+    width: 100%; /* Full width for button */
+    background: #ff4081; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 15px; /* Inner spacing for button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 18px; /* Font size for button */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background 0.3s; /* Transition for hover effect */
+}
+
+.signup button:hover {
+    background: #e91e63; /* Darker shade on hover */
+}
+
+
+
+
+
+/* Privacy Policy Section Styles */
+.privacy {
+    padding: 40px 0;
+}
+
+.privacy h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.privacy p {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Button Styles */
+.cta-button {
+    background: #ff4081;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #e91e63;
+}
+
